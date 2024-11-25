@@ -1,7 +1,4 @@
-import { defineConfig } from 'vitepress'
-
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default {
   title: "daxiang blog",
   description: "a docs for daxiang development",
   base: '/ts-docs/', // 添加这行，设置基础路径
@@ -26,4 +23,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
-})
+}
