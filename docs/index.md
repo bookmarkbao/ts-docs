@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "daxiang blog"
-  text: "a docs for daxiang dev"
+  text: "a docs for daxiang development"
   tagline: My great project tagline
   actions:
     - theme: brand
