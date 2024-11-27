@@ -1,4 +1,5 @@
 # How to Create a Python Project and Virtual Environment
+> 2024-11-27 daxiang
 
 This guide walks you through creating a Python project, setting up a virtual environment, and solving common activation issues.
 
