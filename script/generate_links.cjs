@@ -25,8 +25,9 @@ function scanDirectory(directory) {
 
 function extractLinks(filePath) {
     const content = fs.readFileSync(filePath, 'utf-8');
-    const titleMatch = content.match(/# (.+)/);
-    const title = titleMatch ? titleMatch[1].trim() : path.basename(filePath, '.md');
+    const dirName = path.dirname(filePath).split(path.sep).pop();
+    const fileName = path.basename(filePath, '.md');
+    const title = dirName === 'docs' ? fileName : `${dirName}-${fileName}`;
     const link = filePath.replace(docsDir, '').replace(/\\/g, '/').replace(/\.md$/, '');
     output.push({ text: title, link });
 }
