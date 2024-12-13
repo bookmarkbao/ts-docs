@@ -1,4 +1,4 @@
-**3-Minute Quick Start Guide to LokiJS**
+### 3-Minute Quick Start Guide to LokiJS
 
 LokiJS is a lightweight, in-memory JavaScript database that enables rapid development of small to medium-scale applications without setting up a full-fledged DB server. It’s ideal for prototyping, running quick tests, or building browser-based apps that need a fast and simple data store.
 

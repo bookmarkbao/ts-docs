@@ -1,3 +1,5 @@
+## combines three technologies LokiJS IndexedDB and MongoDB
+
 Below is a simplified documentation in English. It explains the basic idea and how all parts work together. It’s designed for beginners who understand some programming but may be new to these technologies and concepts.
 
 ---
